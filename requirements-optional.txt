@@ -1,0 +1,7 @@
+# Optional extras -- not needed to run the test suite, benchmark, or any
+# solver except the one named below. Install only if you want it.
+#
+# ortools: needed for sudoku.solvers.cp_sat.CPSATSolver (stage 16). A large
+# package (~20MB+ download, compiled C++ core) -- deliberately kept out of
+# requirements.txt so cloning and running this project doesn't require it.
+ortools>=9.0

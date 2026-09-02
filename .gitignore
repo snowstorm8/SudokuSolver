@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# virtual environments
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# benchmark output: latest.csv and results/plots/*.png are the canonical,
+# committed results the README cites and embeds. Timestamped run files are
+# just history from re-running benchmark.py locally -- not tracked.
+results/benchmark_*.csv
+
+.vscode/
+.idea/
